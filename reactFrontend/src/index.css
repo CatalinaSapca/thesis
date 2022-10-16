@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* here is the styling for login */
+body {
+  font-family: ulp-font, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, sans-serif;
+  background: #ffffff;
+}
+/* .c2bb2af78 {
+  background: #ffffff;
+} */
+/* .cd3ddc425.c61fcfe5f {
+  background: #D00E17;
+} */
+/* .cd3ddc425.cd983da46 {
+  background: #0A8852;
+} */
+.st1 {
+  color: #ffffff;
+  background-color: #10A38F;
+}
+.st1 a,
+.st1 a:visited {
+  color: #ffffff;
+}
+/* .c7daea358 {
+  background-color: #0A8852;
+} */
+/* .cdd4d4910 {
+  background-color: #D00E17;
+} */
+@supports (mask-image: url('/static/img/branding-generic/copy-icon.svg')) {
+  @supports not (-ms-ime-align: auto) {
+    .st4.st3::before {
+      background-color: #D00E17;
+    }
+  }
+}
+/* .input.c6160fffe {
+  border-color: #D00E17;
+} */
+/* .error-cloud {
+  background-color: #D00E17;
+} */
+/* .error-fatal {
+  background-color: #D00E17;
+} */
+/* .error-local {
+  background-color: #D00E17;
+} */
+.st2.st3 {
+  background-color: #D00E17;
+  border-color: #D00E17;
+}
+.st2.st3::before {
+  border-bottom-color: #D00E17;
+}
+.st2.st3::after {
+  border-bottom-color: #D00E17;
+}
+#trigger-alert {
+  background-color: #D00E17;
+}
+      
+
+.this-isnt-js {
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+height: 1px;
+overflow: hidden;
+position: absolute;
+white-space: nowrap;
+width: 1px;
+}
+
+.this-requires-js { display: none !important; }
+.this-isnt-js {
+  clip: auto;
+  clip-path: none;
+  height: auto;
+  overflow: auto;
+  position: static;
+  white-space: normal;
+  width: var(--prompt-width);
+}    
+
+@font-face {
+    font-family: "ColfaxAI";
+    src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2) format("woff2"),
+        url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ColfaxAI";
+    src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegularItalic.woff2) format("woff2"),
+        url(https://cdn.openai.com/API/fonts/ColfaxAIRegularItalic.woff) format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "ColfaxAI";
+    src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+        url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ColfaxAI";
+    src: url(https://cdn.openai.com/API/fonts/ColfaxAIBoldItalic.woff2) format("woff2"),
+        url(https://cdn.openai.com/API/fonts/ColfaxAIBoldItalic.woff) format("woff");
+    font-weight: bold;
+    font-style: italic;
+}
+
+:root {
+    --font-family: "ColfaxAI",-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;
+    --primary-color: #10A37F;
+    --primary-color-no-override: #10A37F;
+    --action-primary-color: #10A37F;
+    --link-color: #10A37F;
+    --input-box-shadow-depth: 1px;
+    --page-background-color: #ffffff;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--page-background-color);
+}
+
+/* this shows the logo */
+.oai-header {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main header > img:first-of-type {
+    display: none;
+}
+main > section, main > section > div:first-child {
+    box-shadow: none;
+}
+main header > h1 {
+    font-weight: bold !important;
+    font-size: 32px !important;
+}
+main a {
+    font-weight: normal !important;
+}
+.ulp-alternate-action {
+    text-align: center;
+}
+button[type="submit"] {
+    font-family: var(--font-family);
+}
+
+/* here is the styling for login */

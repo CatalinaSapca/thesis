@@ -1,0 +1,13 @@
+mysql -u root -p
+passsword: root
+
+use tattootopy;
+
+
+
+
+
+
+
+
+show tables;

@@ -1,0 +1,2 @@
+node -v
+nvm use 16.15.0
